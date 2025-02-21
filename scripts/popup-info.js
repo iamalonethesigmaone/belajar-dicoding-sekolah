@@ -1,4 +1,5 @@
 class gambarNadine extends HTMLElement{
+    static observedAttributes = ['img', 'imgcaption', 'imgalt'];
     constructor(){
         super();
 
